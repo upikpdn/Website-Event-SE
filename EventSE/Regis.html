@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Regis.css">
+
+    <title>Registrasi</title>
+</head>
+
+<body>
+	<div class="login">
+        <div class="ikon">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <h2>Software Engineering Event</h2>
+        <h3>Buat Akun Baru</h3>
+        
+        <div class="form">
+            <form action="#" method="POST" onSubmit="validasi()">
+                <div>
+                    <label>Nama Lengkap</label>
+                </div>
+                <div><input type="text" name="nama" id="nama" /></div>
+                <div>
+                    <label>Email</label>
+                </div>
+                <div><input type="email" name="email" id="email" /></div>
+                <div>
+                    <label>Institusi</label>
+                </div>
+                <div><input type="text" name="institusi" id="institusi" /></div>
+                
+            </form>
+        </div>
+	
+        <div class="dropdown">
+            <div>
+                <label>Daftar Sebagai</label>
+            </div>
+            <div class="drop">
+                <select id="myList" onchange="myFunctiondemo()" class="pilih">
+                    <option value="Penyelenggara">Penyelenggara</option>
+                    <option value="Peserta">Peserta</option>
+                </select>
+            </div>
+            
+        </div>
+        
+        <div class="form2">
+            <form action="#" method="POST" onSubmit="validasi()">
+                <div>
+                    <label>Kata Sandi</label>
+                </div>
+                <div><input type="text" name="sandi" id="sandi" /></div>
+                <div>
+                    <label>Konfirmasi Kata Sandi</label>
+                </div>
+                <div><input type="text" name="konfirm" id="konfirm" /></div>
+            </form>
+        </div>
+        <input class="reg" type="button" value="Buat Akun" onClick="validasi('login.html')">
+
+        <p>Sudah memiliki akun?
+            <a href="login.html">Masuk</a>
+        </p>
+	</div>
+</body>
+<script type="text/javascript" src="regis.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0;
+    background-color: #fefefe;
+    font-family: 'Inter';
+}
+
+.ikon img {
+    margin-top: 12px;
+    margin-left: 30px;
+    width: 40px;
+    height: 42px;
+}
+
+.header {
+    background-color: white;
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 190px;
+    height: 46px;
+    left: 90px;
+    top: 18px;
+}
+
+.nav {
+    align-items: center;
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin-top: -10px; 
+    margin-left: 380px;
+    margin-right: 170px;
+}
+
+.beranda {
+    color: #145880;
+    font-weight: bolder;
+}
+
+.menu {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu:hover {
+    transform: scale();
+    cursor: pointer;
+    color: #145880;
+    font-weight: bolder;
+}
+
+.btn img {
+    margin-top: -1px;
+    height: 25px;
+    border-radius: 180px;
+    border: 1px solid #145880;
+}
+
+.btn {
+    border: 1px solid #145880;
+    border-radius: 15px;
+    width: 120px;
+    display: grid;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid #145880;
+}
+.akun p {
+    cursor: pointer;
+    margin-top: -32px;
+    margin-left: 45px;
+}
+
+/* Slideshow container */
+.slide {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* acara akan datang */
+.datang{
+    margin-left: 40px;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 40px;
+}
+.datang b{
+    font-size: 18pt;
+}
+.datang h4{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 12pt;
+    color: #145880;
+}
+.datang h4:hover{
+    cursor: pointer;
+}
+
+/* card acara akan datang */
+.display{   
+    margin-left: 5px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+/* acara */
+.card{
+    width: 380px;
+    height: 320px;
+    border: 2px #199FD7 solid;
+    border-radius: 25px;
+    display: grid; 
+}
+.ev:hover{
+    cursor: pointer;
+}
+.card img{
+    width: 376px;
+    height: 180px;
+    border-radius: 23px 23px 0px 0px;
+    border: 1px #199FD7 solid;
+}
+.card-body-2{
+    margin-top: 8px;
+    margin-left: 17px;
+}
+.card-body-2 p{
+    margin-bottom: -19px;
+    font-size: 10pt;
+    color: #145880;
+    
+}
+.tgl{
+    margin-top: -18px;
+    font-size: 10pt;
+    color: #145880 ;
+    display: flex;
+}
+.tgl p{
+    margin-left: 10px;
+    color: #000000;
+}
+
+/* informasi */
+.info p{
+    margin-top: 0px;
+    font-size: 10pt;
+    color: #145880 ;
+    margin-bottom: 5px;
+}
+
+.detail p{
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: right;
+}
+.detail:hover{
+    cursor: pointer;
+}
+
+/* tahapan */
+.tahap{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.tahap b{
+    font-size: 25pt;
+}
+
+.tahapimg{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 150px;
+}
+.tahapimg img{
+    width: 65%;
+}
+
+/* footer */
+.foot{
+    margin-top: 100px;
+    background-color:rgba(20, 88, 128, 0.9);;
+    height: 110px;
+}
+
+.foot label{
+    padding-top: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+.ig:hover, .ytb:hover{
+    color: red;
+}
+.wa:hover{
+    color: green;
+}
+.copy{
+    margin-top: -5px;
+    background-color:#145880;
+    padding: 5px;
+    font-size: 12px;
+}
+.copy p{
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    height: 1px;
+    display: flex;
+    
+}
+

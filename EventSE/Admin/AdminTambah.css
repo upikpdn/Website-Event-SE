@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0;
+    background-color: #fefefe;
+    font-family: 'Inter';
+}
+
+.ikon img {
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 40px;
+    height: 42px;
+    margin-bottom: 10px;
+}
+.title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 190px;
+    height: 46px;
+    left: 90px;
+    top: 18px;
+    color: white;
+}
+
+.btn img {
+    margin-top: -1px;
+    height: 25px;
+    border-radius: 180px;
+    border: 1px solid #145880;
+}
+
+.btn {
+    margin-right: 50px;
+    border: 1px solid #145880;
+    background-color: white;
+    border-radius: 15px;
+    width: 120px;
+    display: grid;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid #145880;
+}
+.akun p {
+    cursor: pointer;
+    margin-top: -32px;
+    margin-left: 45px;
+}
+
+/* tambah acara */
+.list b{
+    margin-left: 40px;
+    font-size: 20pt;
+}
+.tambah{
+    margin-left: 40px;
+    font-size: 15pt;
+}
+.form-control{
+    width: 900px;
+    margin-left: 130px;
+    border-radius: 15px;
+}
+.dok{
+    display: flex;
+}
+.file{
+    margin-left: 245px;
+    width: 400px;
+}
+.form-label{
+    width: 100px;
+}
+.desk{
+    height: 200px;
+}
+.form-group {
+    width: 1200px;
+    display: flex;
+}
+.form-group label{
+    width: 190px;
+    margin-right: 160px;
+}
+.form-group input{
+    border:  1px solid rgba(63, 63, 63, 0.35);
+    height: 38px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;   
+}
+.dua{
+    display: flex;
+    margin-left: 100px;
+}
+.dua input{
+    margin-left: -90px;
+}
+.select label{
+    max-width: 100%;
+}
+.select{
+    border-radius: 15px;
+    display: flex;
+}
+.form-select{
+    font-size: 15pt;
+    border:  1px solid rgba(63, 63, 63, 0.35);
+    height: 38px;
+    border-radius: 15px;
+    width: 200px;
+    margin-left: 230px;
+}
+.lok{
+    height: 100px;
+}
+
+/* button atas img */
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 80%;
+}
+
+/* Make the image responsive */
+.container img {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(85, 85, 85, 0.671);
+    color: white;
+    font-size: 12pt;
+    padding: 12px 24px;
+    width: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.container .btn:hover {
+    background-color: #145880;
+}
+
+/* button */
+.tombol{
+    margin-top: 6px;
+    font-size: 12pt;
+    display: flex;
+    margin-left: 1050px;
+}
+.kembali {
+    box-sizing: border-box;
+    width: 130px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #145880;
+    border-radius: 30px;
+    color: #145880;
+    margin-right: 10px;
+}
+.kembali:hover{
+    background: #145880;
+    border: 1px solid #145880;
+    color: white;
+}
+.daft{
+    box-sizing: border-box;
+    width: 130px;
+    height: 35px;
+    left: 210px;
+    color: #FFFFFF;
+    background: #145880;
+    border: 1px solid #145880;
+    border-radius: 30px;
+}
+
+
+/* footer */
+.copy{
+    margin-top: -5px;
+    background-color:#145880;
+    padding: 5px;
+    font-size: 12px;
+}
+.copy p{
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    height: 1px;
+    display: flex;
+    
+}
+

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0;
+    background-color: #fefefe;
+    font-family: 'Inter';
+}
+
+.ikon img {
+    margin-top: 12px;
+    margin-left: 30px;
+    width: 40px;
+    height: 42px;
+}
+
+.header {
+    background-color: white;
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 190px;
+    height: 46px;
+    left: 90px;
+    top: 18px;
+}
+
+.nav {
+    align-items: center;
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-left: 380px;
+    margin-right: 170px;
+}
+
+.menu {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu:hover {
+    transform: scale();
+    cursor: pointer;
+    color: #145880;
+    font-weight: bolder;
+}
+
+.btn img {
+    margin-top: -1px;
+    height: 25px;
+    border-radius: 180px;
+    border: 1px solid #145880;
+}
+
+.btn {
+    border: 1px solid #145880;
+    border-radius: 15px;
+    width: 120px;
+    display: grid;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px solid #145880;
+}
+
+.akun p {
+    cursor: pointer;
+    margin-top: -32px;
+    margin-left: 45px;
+}
+
+.img-fluid {
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.judul {
+    margin-left: 30px;
+}
+
+.judul h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.judul p {
+    color: #145880;
+    margin-bottom: -25px;
+}
+
+.badge {
+    margin-top: 0px;
+    margin-left: 280px;
+}
+
+.deskripsi {
+    box-sizing: border-box;
+    position: absolute;
+    width: 941px;
+    height: 1200px;
+    left: 30px;
+    background: #FFFFFF;
+    border: 0.5px solid #145880;
+    border-radius: 15px;
+}
+ 
+.desk b {
+    font-size: larger;
+    margin-left: 40px;
+    color: #145880;
+}
+.desk pre{
+    font-family: 'Inter';
+    color: #000000;
+    font-weight: 400;
+    margin-left: 40px;
+    width: 862px;
+    height: 788px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: -150px;
+
+}
+.time b{
+    font-size: larger;
+    margin-left: 40px;
+    color: #145880;
+}
+.acar{
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 1004px;
+    top: 780px;
+    background: #FFFFFF;
+    border: 0.5px solid #145880;
+}
+.ikuti b{
+    font-size: larger;
+    margin-left: 20px;
+    color: #145880;
+}
+.icon{
+    margin-left: 20px;
+    color: #145880;
+    font-size: 25px;
+    display: flex;
+}
+.icon p{
+    color: #000000;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.log {
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background: #145880;
+    border-radius: 15px;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:15pt bolder;
+}
+.unduh {
+    margin-left: 55px;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background: white;
+    border-radius: 15px;
+    border: 1px #145880 solid;
+    list-style: none;
+    text-decoration: none;
+    color: #145880;
+    text-align: center;
+    font-size:15pt bolder;
+}
+
+.lok{
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 130px;
+    left: 1004px;
+    top: 1120px;
+    background: #FFFFFF;
+    border: 0.5px solid #145880;
+}
+.lokasi b{
+    font-size: larger;
+    margin-left: 20px;
+    color: #145880;
+}
+.lokasi p{
+    margin-left: 20px;
+}
+
+.foot{
+    margin-left: -40px;
+    width: 1358px;
+    margin-top: 100px;
+    background-color:rgba(20, 88, 128, 0.9);;
+    height: 110px;
+}
+
+.foot label{
+    padding-top: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+.ig:hover, .ytb:hover{
+    color: red;
+}
+.wa:hover{
+    color: green;
+}
+.copy{
+    margin-top: -5px;
+    background-color:#145880;
+    padding: 5px;
+    font-size: 12px;
+}
+.copy p{
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    height: 1px;
+    display: flex;
+    
+}
+

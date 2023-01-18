@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0;
+    background-color: #fefefe;
+    font-family: 'Inter';
+}
+
+.ikon img {
+    margin-top: 12px;
+    margin-left: 30px;
+    width: 40px;
+    height: 42px;
+}
+
+.header {
+    background-color: white;
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 190px;
+    height: 46px;
+    left: 90px;
+    top: 18px;
+}
+
+.nav {
+    align-items: center;
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-left: 380px;
+    margin-right: 170px;
+}
+
+.menu {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu:hover {
+    transform: scale();
+    cursor: pointer;
+    color: #145880;
+    font-weight: bolder;
+}
+
+.btn img {
+    margin-top: -1px;
+    height: 25px;
+    border-radius: 180px;
+    border: 1px solid #145880;
+}
+
+.btn {
+    border: 1px solid #145880;
+    border-radius: 15px;
+    width: 120px;
+    display: grid;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px solid #145880;
+}
+
+.akun p {
+    cursor: pointer;
+    margin-top: -32px;
+    margin-left: 45px;
+}
+
+/* banner */
+.img-fluid {
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* judul */
+.judul {
+    margin-left: 30px;
+}
+
+.judul h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.judul p {
+    color: #145880;
+    margin-bottom: -25px;
+}
+
+.badge {
+    margin-top: 0px;
+    margin-left: 280px;
+}
+
+/* box pendaftaran */
+.deskripsi {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1280px;
+    height: 2000px;
+    left: 30px;
+    background: #FFFFFF;
+    border: 0.5px solid #145880;
+    border-radius: 15px;
+}
+
+.desk b {
+    font-size: larger;
+    margin-left: 40px;
+    color: #145880;
+}
+
+/* data kiri disabled input */
+.mb-3 {
+    margin-left: 40px;
+    color: #000000;
+}
+
+.form-control {
+    border-radius: 15px;
+    border: 1px #D6D6D6 solid;
+    max-width: 500px;
+}
+
+.ketua b {
+    margin-left: 40px;
+}
+
+/* data kanan disabled input */
+.kanan {
+    margin-top: -282px;
+    margin-left: 680px;
+}
+
+.ang {
+    margin-top: -196px;
+}
+
+/* payment */
+.pay img {
+    height: 420px;
+    width: 340px;
+    margin-top: -230px;
+    margin-right: 150px;
+}
+
+.deskripsi pre {
+    font-family: 'Inter';
+    color: #000000;
+    font-weight: 400;
+    margin-left: 40px;
+    font-size: 15px;
+    width: 1200px;
+    height: 788px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: -150px;
+
+}
+
+.nyata {
+    margin-top: 220px;
+}
+
+.form-check {
+    margin-top: -480px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+/* button daftar */
+.kembali {
+    box-sizing: border-box;
+    position: absolute;
+    width: 150px;
+    height: 36px;
+    left: 886px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    border: 1px solid #145880;
+    border-radius: 30px;
+}
+.kembali:hover{
+    background: #145880;
+    border: 1px solid #145880;
+    color: white;
+}
+.daft{
+    box-sizing: border-box;
+    position: absolute;
+    width: 150px;
+    height: 36px;
+    left: 1066px;
+    margin-top: 100px;
+    color: #FFFFFF;
+    background: #145880;
+    border: 1px solid #145880;
+    border-radius: 30px;
+}
+
+/* footer */
+.foot {
+    margin-left: -40px;
+    width: 1385px;
+    margin-top: 2100px;
+    background-color: rgba(20, 88, 128, 0.9);
+    ;
+    height: 110px;
+}
+
+.foot label {
+    padding-top: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.ig:hover,
+.ytb:hover {
+    color: red;
+}
+
+.wa:hover {
+    color: green;
+}
+
+.copy {
+    margin-top: -5px;
+    background-color: #145880;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.copy p {
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    height: 1px;
+    display: flex;
+
+}

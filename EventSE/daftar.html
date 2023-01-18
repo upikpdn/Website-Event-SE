@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="daftar.css">
+    <title>Event</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg bg-light">
+        <div class="ikon">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="title">
+            <p>SOFTWARE ENGINEERING EVENT</p>
+        </div>
+        <ul class="nav">
+            <a class="menu beranda" href="index.html">BERANDA</a>
+            <a class="menu acara" href="acara.html">ACARA</a>
+            <a class="menu galeri" href="galeri.html">GALERI</a>
+            <a class="menu informasi" href="informasi.html">INFORMASI</a>
+        </ul>
+        <div class="akun" onclick="klik('profil.html')">
+            <button type="button" class="btn btn-outline-primary"><img src="img/profil.jpg"></button>
+            <p>Akunku</p>
+        </div>
+    </div>
+    <br>
+    <div class="judul">
+        <h1>Lomba UI/UX Dies Natalis Software Engineering #6</h1>
+        <p>Pendidikan dan Pengembangan</p>
+    </div>
+    <span class="badge rounded-pill text-bg-success">Dibuka</span>
+
+    <br>
+    <br>
+    <div class="text-center">
+        <img src="img/banner2.jpg" class="img-fluid">
+    </div>
+
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <b>Tanggal Pelaksanaan</b> 
+            </div>
+            <div class="col">
+              <b>Waktu Pelaksanaan</b>
+            </div>
+            <div class="col">
+              <b>Lokasi Pelaksanaan</b>
+            </div>
+          </div>
+      </div>
+      <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <p>4 Januari 2023</p> 
+            </div>
+            <div class="col">
+              <p>15.30 WIB - Selesai</p>
+            </div>
+            <div class="col">
+              <p>Zoom Meeting</p>
+              </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="deskripsi">
+        <br>
+        <div class="desk">
+            <b>Form Pendaftaran</b>
+        </div>
+        <br>
+        <div class="form">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nama Tim</label>
+                <input class="form-control" type="text" placeholder="Contoh: Azarine"
+                    aria-label="default input example">
+            </div>
+            <!-- data ketua -->
+            <div class="ketua">
+                <b>Data Ketua Tim</b>
+                <!-- data kiri -->
+                <div class="kiri">
+                    <div class="mb-3">
+                        <br>
+                        <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+                        <input class="form-control" type="text" placeholder="Mawar Eva" aria-label="Disabled input example" disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nomor Induk Mahasiswa</label>
+                        <input class="form-control" type="text" placeholder="19104090" aria-label="Disabled input example" disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Institusi</label>
+                        <input class="form-control" type="text" placeholder="Institut Teknologi Telkom Purwokerto"
+                            aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+                <!-- data kanan -->
+                <div class="kanan">
+                    <div class="mb-3">
+                        <br>
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input class="form-control" type="text" placeholder="19104090@ittelkom-pwt.ac.id" aria-label="Disabled input example" disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nomor WhatsApp</label>
+                        <input class="form-control" type="text" placeholder="0821-1234-1234" aria-label="Disabled input example" disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Alamat Domisili</label>
+                        <input class="form-control" type="text" placeholder="Banyumas, Jawa Tengah"
+                            aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+            </div>
+            <!-- Data Anggota 1 -->
+            <div class="ketua">
+                <br>
+                <b>Data Anggota 1</b>
+                <!-- data kiri -->
+                <div class="kiri">
+                    <div class="mb-3">
+                        <br>
+                        <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+                        <input class="form-control" type="text" placeholder="" id="nama" aria-label="default input example">                    
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nomor Induk Mahasiswa</label>
+                        <input class="form-control" type="text" placeholder="" id="nim" aria-label="default input example">                
+                    </div>
+                </div>
+                <!-- data kanan -->
+                <div class="kanan ang">
+                    <div class="mb-3">
+                        <br>
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nomor WhatsApp</label>
+                        <input class="form-control" type="text" placeholder="" id="nowa" aria-label="default input example">                    
+                    </div>
+                </div>
+            </div>
+            <!-- Data Anggota 2 -->
+            <div class="ketua">
+                <br>
+                <b>Data Anggota 2</b>
+                <!-- data kiri -->
+                <div class="kiri">
+                    <div class="mb-3">
+                        <br>
+                        <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+                        <input class="form-control" type="text" placeholder="" id="nama" aria-label="default input example">                    
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nomor Induk Mahasiswa</label>
+                        <input class="form-control" type="text" placeholder="" id="nim" aria-label="default input example">                
+                    </div>
+                </div>
+                <!-- data kanan -->
+                <div class="kanan ang">
+                    <div class="mb-3">
+                        <br>
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nomor WhatsApp</label>
+                        <input class="form-control" type="text" placeholder="" id="nowa" aria-label="default input example">                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="desk">
+            <b>Kelengkapan Dokumen</b>
+        </div>
+        <br> 
+        <div class="dokumen">
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Hasil Karya (.pdf)</label>
+                <input class="form-control" type="file" id="formFile">
+            </div> 
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Bukti Pembayaran (.jpg, .jpeg, .png)</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="pay">
+                <img src="img/payment.png" class="rounded float-end">
+            </div>
+        </div>
+        <div class="desk nyata">
+            <b>Menyatakan</b>
+        </div>
+        <div class="pernyataan">
+            <pre>
+Mengajukan diri sebagai peserta lomba UI/UX Dies Natalis Software Engineering #6 dan bersedia mengikuti ketentuan sebagai berikut:
+
+1. Desain yang diperlombakan adalah ciptaan sendiri, bukan plagiat/meniru/menjiplak dari web atau karya orang lain
+2. Peserta adalah perseorangan, apabila mewakili tim maka yang mengajukan diri dan menandatangani surat pernyataan ini akan mewakili & bertanggungjawab atas desain
+    yang diperlombakan beserta segala konsekuensinya dari tim yang diwakilkan.
+3. Dengan menyerahkan desain web kepada pihak panitia lomba maka peserta mematuhi bahwa segala desain yang masuk (sebagian/seluruhnya) akan menjadi milik
+    panitia.
+4. Apabila desain dinyatakan sebagai pemenang, maka panitia lomba berhak menggunakan desain tersebut baik sebagian atau seluruh desainnya bagi kepentingan
+    Software Engineering Event tanpa ada kompensasi lain yang dituntut oleh peserta kecuali hadiah lomba.
+            </pre>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Menyetujui dengan sebenarnya secara sadar dan tanpa paksaan dan telah menerima segala hak yang telah disetujui
+                </label>
+              </div>
+        </div>
+        <input class="kembali" type="button" value="Kembali" onClick="kembali('index.html')">
+        <input class="daft" type="button" value="Daftar" onClick="daftar('index.html')">
+    
+    </div>
+
+    <!-- footer -->
+    <footer class="foot">
+        <label>se@ittelkom-pwt.ac.id</label>
+        <div class="logo">
+            <ion-icon name="logo-instagram" class="logo ig"></ion-icon>
+            <ion-icon name="logo-youtube" class="logo ytb"></ion-icon>
+            <ion-icon name="logo-whatsapp" class="logo wa"></ion-icon>
+        </div>
+
+        <div class="copy">
+            <p>CopyRight©2022</p>
+            <p>Designed by Fauziyah</p>
+        </div>
+    </footer>
+
+
+
+</body>
+<script type="text/javascript" src="daftar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
